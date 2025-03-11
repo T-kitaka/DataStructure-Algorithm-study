@@ -108,6 +108,8 @@
 <img width="642" alt="Image" src="https://github.com/user-attachments/assets/03c663fc-c5e2-470d-8008-ca805fe31926" />
 
 
+맨 앞에 있는 노드는 head가 되고 맨 끝에 있는 노드를 tail이라고 추가적으로 명시해주게 된다면, 탐색 시 좀 더 효율적으로 탐색을 할 수 있게된다.
+
 단일 연결리스트에서 추가적으로 반대 방향에 있는 노드를 가리키는 것 이외에는 큰 차이가 없다.
 
 <br>
