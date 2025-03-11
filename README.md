@@ -7,5 +7,6 @@
 
 참고 자료 ⬇️
 
-마크다운 사용법 : https://gist.github.com/ihoneymon/652be052a0727ad59601 
+마크다운 사용법 : https://gist.github.com/ihoneymon/652be052a0727ad59601    
+
 이미지 업로드 방법 : https://aiday.tistory.com/83 
