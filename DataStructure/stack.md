@@ -86,7 +86,7 @@ class Node {
 }
 
 class LinkedListStack {
-    private Node top; //스택의 최상단 노드를 가리키는 변수
+    private Node top; //스택의 최상단 노드를 가리키는 포인터
     private int size; // 스택의 크기(현재 저장 요소)
 
     public LinkedListStack() {
