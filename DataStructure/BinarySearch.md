@@ -153,5 +153,3 @@ public static int binarySearch(int[] arr, int low, int high, int target) {
 
 ---
 
-✅ **이제 GitHub에서도 깔끔하게 정리될 거야!** 🎯🚀
-
