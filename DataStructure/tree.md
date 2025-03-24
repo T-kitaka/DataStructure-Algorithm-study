@@ -139,3 +139,27 @@ class Node<T> {
 - 후위 순회: 왼쪽 가장 하위 노드를 먼저 순회한 이후 -> 오른쪽 하위 노드 -> 바로 상위 노드
 
 ![](https://blog.kakaocdn.net/dn/SA71w/btrTHO7twEq/gZ9mV2pYlvHNW0odpOGjM1/img.png)
+
+
+## 1차원 배열로 트리구조 나타내기
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqX1r8%2FbtqMARP7ACw%2FVHcTg5NA690ZemH9J55fP0%2Fimg.png)
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Tree1Matrix {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] parent = new int[n+1]; //tree 저장을 위한 1차원 배열, 루트는 1부터 시작하기 때문에 n+1
+		
+		for(int i = 2; i <= n; i++) { //1은 루트이기 때문에 2부터 시작 (tree[1] = 0)
+			parent[i] = i/2; //노드i의 부모 노드 인덱스 = i/2
+		}
+		
+		System.out.println(Arrays.toString(parent));
+	}
+}
+
+```
