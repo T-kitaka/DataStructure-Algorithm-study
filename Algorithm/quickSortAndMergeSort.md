@@ -1,11 +1,14 @@
-# 1. 퀵 정렬
+# 퀵 정렬과 병합 정렬
+![image](https://github.com/user-attachments/assets/fd1ebf8c-86cd-4b7a-981b-2652006087a8)
+
+## 1. 퀵 정렬
 ---
-## 1.1. 퀵 정렬의 특징
+### 1.1. 퀵 정렬의 특징
 평균적인 시간 복잡도가 O(n log n)인 정렬 알고리즘으로 병합 정렬과 함께 대표적인 분할 정복 알고리즘에 기반한 정렬 방법이다.
 퀵 정렬은 배열에서 원소 하나를 pivot으로 두고 (오름차순인 경우) 피벗보다 작은 원소를 왼쪽으로, 큰 원소를 오른쪽으로 배치하며 이를 반복해나가 정렬을 하는 알고리즘이다.
 ![](https://velog.velcdn.com/images/hueyjeong/post/6bb63ded-d627-4a97-a558-6a8cf8957812/image.png)
 
-## 1.2. 퀵 정렬의 구현
+### 1.2. 퀵 정렬의 구현
 ```java
 quickSort(arr, 0, arr.length - 1);
 
@@ -47,11 +50,11 @@ public static void swap(int[] arr, int i, int j) {
 ```
 ![](https://velog.velcdn.com/images/hueyjeong/post/7b07e601-5c9e-4ce2-a74c-9b430da9969a/image.png)
 
-# 2. 병합 정렬
-## 2.1. 병합 정렬의 특징
+## 2. 병합 정렬
+### 2.1. 병합 정렬의 특징
 배열을 반씩 나누어 더 이상 나눌 수 없을 때까지 분할한 후 배열을 2개씩 합쳐 나가며 정렬된 상태로 병합한다. 이 과정을 모두 반복하여 다시 하나가 되면 정렬이 완료된다. O(n log n)인 알고리즘으로 안정적인 정렬이 가능하다.
 
-## 2.2. 병합 정렬의 구현
+### 2.2. 병합 정렬의 구현
 ```java
 private static void sort(int[] arr) {
     if (arr.length == 1) {
