@@ -2,8 +2,8 @@
 🔎 &nbsp; 목차
 
     1. 그래프 탐색이란?
-    2. DFS
-    3. BFS
+    2. 깊이 우선 탐색 DFS
+    3. 너비 우선 탐색 BFS
     4. DFS와 BFS의 사용
 </aside>
 
