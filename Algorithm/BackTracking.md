@@ -5,6 +5,8 @@
 
 >백트래킹은 모든 경우의 수에서 조건을 만족하는 경우를 탐색하는 것이기 때문에 완전탐색기법인 DFS, BFS로 모두 구현이 가능하다. 백트래킹 특성상 조건에 부합하지 않으면 이전 수행으로 돌아가야 함으로 DFS가 구현하기 더 편해 DFS를 주로 사용한다.
 
+EX) 만약 지갑을 놓고와서 집에 들러야 하는 상황이라고 가정했을 때
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fy07lF%2FbtsHXbkOuV7%2FSkVhvoW1aUatUAcKcxKNCK%2Fimg.png)
 
 가능한 해가 아닌 경우를 배제함으로써 탐색 공간을 줄이고, 문제를 효율적으로 해결할 수 있도록 한다. 
