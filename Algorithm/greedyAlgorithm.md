@@ -1,3 +1,8 @@
+# 그리디 알고리즘
+![image](https://github.com/user-attachments/assets/804898c8-2d69-49fa-aade-e9fb297cea5b)
+
+![image](https://github.com/user-attachments/assets/f9cede42-cb4e-49df-8183-5dffb1d2810f)
+
 ## 그리디 알고리즘이란?
 그리디(탐욕적) 알고리즘은 문제 해결 과정에서 매 순간마다 **가장 좋은 선택**을 하는 전략을 말한다. 즉 현재 단계에서 가장 최적이라고 판단되는 해를 선택하고 그 선택이 전체 문제 해결에도 최적이라는 가정하에 최종해에 도달하고자 하는 알고리즘이다.
 ### 기본 개념
